@@ -1,0 +1,3 @@
+dw_cache_homepage:
+    pattern:  /redis
+    defaults: { _controller: DWCacheBundle:Default:index }
