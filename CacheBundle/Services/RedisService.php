@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author yann-eric@live.fr
+ */
+ 
 namespace DW\CacheBundle\Services;
 
 use DW\CacheBundle\Services\CacheServiceInterface;
