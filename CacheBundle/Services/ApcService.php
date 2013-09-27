@@ -6,6 +6,8 @@
 
 namespace DW\CacheBundle\Services;
 
+use DW\CacheBundle\Services\CacheServiceInterface;
+
 /**
  * Classe de manipulation du cache Apc
  */
