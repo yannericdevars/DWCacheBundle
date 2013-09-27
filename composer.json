@@ -1,0 +1,26 @@
+{
+    "name": "DWCacheBundle",
+    "type": "symfony-bundle",
+    "description": "Symfony CacheBundle",
+    "keywords": ["cache", "no-sql"],
+    "homepage": "http://symfony.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yann-Eric Devas",
+            "email": "yann-eric@live.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": { "Symfony\\Bundle\\DWCacheBundle": "" }
+    },
+    "target-dir": "Symfony/Bundle/DWCacheBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.4.x-dev"
+        }
+    }
+}
