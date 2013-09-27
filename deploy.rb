@@ -9,6 +9,7 @@ set :github_application, "DWCacheBundle"
 set :repository, "git@github.com:#{github_user}/#{github_application}.git"
 set :scm, 'git'
 set :git_shallow_clone, 1
+set :keep_releases, 10
 
 # Debug
 set :scm_verbose, true
