@@ -1,0 +1,8 @@
+
+Si l'on utilise Capistrano pour le déploiment :
+
+Ne pas oublier de vider le cache, installer les ASSETS etc ...
+
+after "deploy" do
+    run "cd #{latest_release} && php app/console MyTask --env=prod"
+end
